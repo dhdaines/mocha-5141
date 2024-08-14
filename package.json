@@ -1,0 +1,29 @@
+{
+  "name": "mocha-5141",
+  "version": "1.0.0",
+  "description": "Reproduce issue #5141 in mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhdaines/mocha-5141.git"
+  },
+  "keywords": [
+    "reproduction",
+    "bug"
+  ],
+  "author": "David Huggins-Daines <dhd@ecolingui.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhdaines/mocha-5141/issues"
+  },
+  "homepage": "https://github.com/dhdaines/mocha-5141#readme",
+  "mocha": {
+    "spec": "./*.spec.js",
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
