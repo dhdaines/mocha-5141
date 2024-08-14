@@ -3,7 +3,10 @@ Reproduction of issue 5141 for Mocha
 
 To reproduce:
 
+    # Either do this (*do not* run npm install!)
     npx mocha
+    # Or this
+    node /path/to/mocha/bin/mocha.js
     
 Expected behaviour:
 
